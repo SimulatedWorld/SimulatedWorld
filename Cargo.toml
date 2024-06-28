@@ -1,0 +1,30 @@
+[package]
+name = "simulatedworld"
+version = "0.1.0"
+edition = "2021"
+authors = ["dliang <humgal@outlook.com>"]
+license = "MIT OR Apache-2.0"
+keywords = ["bundle", "cargo"]
+repository = "https://github.com/SimulatedWorld/SimulatedWorld.git"
+description = "distributed app for simulated earth"
+
+[package.metadata.bundle]
+name = "simulatedworld"
+identifier = "simulated.world"
+icon = [
+    "icons/icon_32x32.png",
+    "icons/icon_128x128.png",
+    "icons/icon_128x128@2x.png",
+    "icons/icon_256x256.png",
+]
+version = "0.1.0"
+resources = ["assets", "icons/**/*.png"]
+category = "game"
+short_description = "distributed app for simulated earth"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.13.2"
+bevy_gltf = "0.13.2"
+bevy_internal = "0.13.2"
