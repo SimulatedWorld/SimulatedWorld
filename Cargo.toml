@@ -64,6 +64,9 @@ members = [
     "crates/wallet",
     "crates/water",
     "crates/event",
+    "crates/pow",
+    "crates/vote",
+    "crates/runtime",
 ]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
