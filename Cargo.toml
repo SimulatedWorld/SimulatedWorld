@@ -22,6 +22,50 @@ resources = ["assets", "icons/**/*.png"]
 category = "game"
 short_description = "distributed app for simulated earth"
 
+[workspace]
+members = [
+    "crates/atmo",
+    "crates/cave",
+    "crates/cli",
+    "crates/clouds",
+    "crates/core",
+    "crates/creature",
+    "crates/dag",
+    "crates/data",
+    "crates/equation",
+    "crates/geo",
+    "crates/geodynamics",
+    "crates/geophysical",
+    "crates/glacier",
+    "crates/gravity",
+    "crates/horizon",
+    "crates/lava",
+    "crates/log",
+    "crates/map",
+    "crates/math",
+    "crates/mesh",
+    "crates/metrics",
+    "crates/ml",
+    "crates/model",
+    "crates/net",
+    "crates/node",
+    "crates/ocean",
+    "crates/parallel",
+    "crates/plant",
+    "crates/render",
+    "crates/starry",
+    "crates/stroage",
+    "crates/sun",
+    "crates/tasks",
+    "crates/terrain",
+    "crates/tools",
+    "crates/user",
+    "crates/vm",
+    "crates/wallet",
+    "crates/water",
+    "crates/event",
+]
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
